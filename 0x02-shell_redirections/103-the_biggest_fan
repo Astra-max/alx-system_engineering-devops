@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -f 1 path/to/web_server_logs.tsv | sort | uniq -c | sort -nr | head -n 11
