@@ -1,1 +1,1 @@
-Beginning basics of shell
+Redirecting advanced bash

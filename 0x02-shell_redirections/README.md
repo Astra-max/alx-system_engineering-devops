@@ -1,1 +1,1 @@
-Advanced bash scripting
+Advanced shell
