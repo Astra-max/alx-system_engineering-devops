@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo $PATH | grep -E '^/' | wc -1)
+wc -l <(echo $PATH | grep -E '^/')
