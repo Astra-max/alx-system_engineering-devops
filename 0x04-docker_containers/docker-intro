@@ -1,0 +1,10 @@
+Docker - is executable software app that allows developers and ops team
+         build, deploy and run  light weight applications to a sufficient environment.
+
+Docker registry - Repository that contains docker images
+
+image - A executable package which contains application src code, dependencies
+        and config files to create a docker container.
+
+        docker pull image:version
+           - pulls an image from docker registry
