@@ -7,4 +7,18 @@ image - A executable package which contains application src code, dependencies
         and config files to create a docker container.
 
         docker pull image:version
-           - pulls an image from docker registry
+        - pulls an image from docker registry
+
+Docker container - is a running docker
+                   - To start docker container you run the docker image
+
+                   docker run nginx:1.23
+
+                      - start an instance of nginx container but blocks the terminal
+
+                   docker run -d nginx:1.23
+                     
+                      - Start docker container in a detached state(does not block the terminal)
+                      - To see logs from this background container.
+
+                       docker log container_id
