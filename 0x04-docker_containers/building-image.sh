@@ -1,0 +1,11 @@
+# We can either pull already build image from docker registry or create a custom image from a dockerfile
+
+
+# 1. Pull from registry
+
+$ docker pull image-name
+
+
+# 2. From custom dockerfile
+
+$ docker build -t name ./path/to/dockerfile
