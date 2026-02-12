@@ -1,6 +1,0 @@
-Port Binding  - nginx service runs in isolation within a container ndinx service becomes unrecogniced by external
-                services. 
-                To available the service to outside world i binded the nginx port 80 to host port 9000
-                This avails the service to external services like the browser.
-
-                docker run -d -p 9000:80 nginx:1.23

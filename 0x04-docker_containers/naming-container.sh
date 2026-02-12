@@ -1,0 +1,3 @@
+# Naming Container - Its easier to work with container names than id
+
+docker run --name my-app -d -p 9000:80 nginx:1.23
