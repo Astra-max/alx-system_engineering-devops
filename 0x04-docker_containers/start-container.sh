@@ -1,3 +1,5 @@
+# docker start - restarts a closed container
+
 docker start container-id-or-name
 
 
