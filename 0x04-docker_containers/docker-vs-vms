@@ -1,0 +1,10 @@
+Docker - runs on top of os kernel/or the application layer.
+        - Occupies less systems memory
+        - Boots faster
+        - Not compatible with windows system, requires WSL to run.
+        
+Virtual machine - runs on top of systems hardware/has its own os kernel
+                  and application layer.
+                - Occupies alot of systems memory.
+                - Boots slowly, because every start have to launch the    entire OS.
+                - Compatible with all OS.
