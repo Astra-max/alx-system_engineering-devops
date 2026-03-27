@@ -12,20 +12,31 @@
                   # environment -- list of env variables required by container
 
 
+
+# docker volumes - act of data persistence
+                  # - data store is not overwritten even when the container
+                  # - restarts or removed
+
 # version: '3'
-# mongodb:
+# services:
+  # mongodb:
      # image: mongo
     # ports:
       # -27017:27017
     # environment:
-      # - MONGO_INITDB_ROOT_USERNAME=astra 
-# mongo-express:
+      # - MONGO_INITDB_ROOT_USERNAME=astra
+    # volumes:
+       # -mongo-data: /data/db
+ # mongo-express:
     # image: momgo-express
     # ports:
     # -8081:8081
     # environment:
     # - ME_CONFIG_MONGODB_ADMIN_USERNAME=admin
 
+# volumes:
+   #mongo-data:
+     # driver: local
 
 
 # docker-compose -f mongo-express.yaml up
