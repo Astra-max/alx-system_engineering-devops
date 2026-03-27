@@ -29,5 +29,10 @@
 
 
 # docker-compose -f mongo-express.yaml up
+
    # -f specifies yaml file to execute
    # up - launches all containers specified in yaml file
+
+# docker-compose -f mongo-express.yaml down
+
+# removes all running composed containers together with their network
