@@ -1,0 +1,21 @@
+# set of instructions for creating a docker image
+
+# installing node in our image
+FROM node
+
+# adding env variables
+
+ENV MONGO_DB_USERNAME=admin \
+
+RUN mkdir -p /app/src/
+
+# runs linux commands on caontainer env
+
+COPY . /app/src/
+
+# copies files from host to container directory
+
+CMD ["node", "server.js"]
+
+# executes linux commands 
+# its also an entry point command
