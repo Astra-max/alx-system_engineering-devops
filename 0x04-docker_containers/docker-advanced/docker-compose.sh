@@ -25,3 +25,9 @@
     # -8081:8081
     # environment:
     # - ME_CONFIG_MONGODB_ADMIN_USERNAME=admin
+
+
+
+# docker-compose -f mongo-express.yaml up
+   # -f specifies yaml file to execute
+   # up - launches all containers specified in yaml file
