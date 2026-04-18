@@ -1,0 +1,5 @@
+git rm --cached -r unstageFile - Forcefully removes a file/directory from a staging area
+
+git restore --staged unStageFile - removes a file from a staging area
+
+git restore unStageFile - Undo the changes of file in local area with staged changes

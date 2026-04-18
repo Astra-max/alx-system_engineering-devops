@@ -1,0 +1,10 @@
+Git Project Configuration
+
+git config --global -e -  Allows you to edit config in default editor
+git config --global user.name "Astra-max" - Tells git about the username
+git config --global user.email "waoremaxwel17@gmail.com" - Tells git about the user email
+git config --global helper.store - Persists user credentials
+
+git config --global core.editor "code --wait" - Tells git the default editor
+git config --global diff.tool code - Tells git about your preffered diff tool
+git config --global diff.vscode.cmd "code --wait --diff $LOCAL $REMOTE" - Tells git how to launch the diff tool

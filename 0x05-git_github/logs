@@ -1,0 +1,4 @@
+git log
+git log --oneline
+git log --all --oneline
+git log --decorate --all --graph --oneline

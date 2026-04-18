@@ -1,0 +1,2 @@
+git tag - creates a light weight tag on the a particular commit
+git tag -a tageName -m "msg" - create annoted tag which is production ready

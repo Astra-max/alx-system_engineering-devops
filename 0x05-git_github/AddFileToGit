@@ -1,0 +1,7 @@
+git status - checks modified files in the staging area
+git add AddFileToGit - Pushes a file to a git staging area
+git commit -m "created file AddFileToGit" - adds a commit message to the staged file
+git push -    Pushes the file to remote repository
+
+
+git remote add origin main https://github.com/Astra-max/git-github - Adds staged files to remote repository

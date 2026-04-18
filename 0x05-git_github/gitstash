@@ -1,0 +1,21 @@
+git stash -  saves your local change temporarily in a commit
+             As you fetch remote changes
+             git pull
+
+
+git stash pop - restore your files from the storing area
+               - And deletes files from storage area
+
+git stash apply - restores changes without deleting changes from storage area
+
+git stash push -m "saving with a message" - storing your files with a message
+
+git stash list - list all stashed changes in LIFO format
+
+git stash drop stash@{0} - drop a particular stash commit/change from storage area
+
+git stash clear - clear all stash
+
+git stash -u -  includes untracked files
+
+git stash -a -  Includes also the ignored files

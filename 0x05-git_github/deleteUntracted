@@ -1,0 +1,2 @@
+git clean -n - tells untracked files to be remove
+git clean -fd - remove both untracked files and directories

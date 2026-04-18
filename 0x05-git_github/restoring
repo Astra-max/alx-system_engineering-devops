@@ -1,0 +1,5 @@
+git restore . -  restore changes from stagging area to working tree
+
+git reset --hard HEAD^1 --- reset the current head to prev commit discarding history above
+
+git reset --soft HEAD^1 -- resets to current head to prev commit. Preserving history above

@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# merging current branch to master/main
+# merging joins current branch to main with new commit, ---> branch history is preserved
+# while rebasing replays commits of current branch on top of main without creating new commit ---> branch history is not preserved
+git checkout master/main 
+git pull origin master
+git merge branch_name
+
+
+# merging parallel history
+# if there are two branches with different history, git will not be able to merge them automatically
+# in this case, you can use the --allow-unrelated-histories option to merge
+
+git merge branch_name --allow-unrelated-histories

@@ -1,0 +1,2 @@
+git restore --staged removeUnstaged - remove staged file
+git restore --stage . -- unstages all files
