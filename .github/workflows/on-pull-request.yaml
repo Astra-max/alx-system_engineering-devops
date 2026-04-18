@@ -1,0 +1,10 @@
+name: "raised pull request action"
+
+on: [pull_request]
+
+jobs:
+  pullrequest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger pr actions
+        run: echo "raised pull request"
