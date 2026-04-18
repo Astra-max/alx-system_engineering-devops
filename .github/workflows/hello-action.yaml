@@ -1,0 +1,12 @@
+name: "display hello action"
+
+on: [push]
+
+jobs:
+  greetuser:
+    runs-on: ubuntu-latest
+    steps:
+      - name: greet user workflow
+        run: echo "hello there"
+
+
