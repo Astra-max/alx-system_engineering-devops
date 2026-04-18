@@ -3,7 +3,7 @@ name: "raised pull request action"
 on: [pull_request]
 
 jobs:
-  pull-request:
+  pullrequest:
     runs-on: ubuntu-latest
     steps:
       - name: trigger pr actions
